@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/**
+
+	TodoApp: 0.0.1
+	Simon Blöchlinger
+
+	Colorschema:
+	http://www.colourlovers.com/palette/4368768/C_r_e_a_t_e_d
+
+**/
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #F6F2BA;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #080202; }
+
+.page {
+  background: #fff;
+  padding: 50px; }
+
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 20px; }
+
+/* Forms & Form fields */
+.form-add {
+  padding: 10px;
+  background: #F6F2BA;
+  margin-bottom: 20px; }
+
+.form-remove {
+  background: #F6F2BA;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: right; }
+
+.form-element {
+  font-size: 18px;
+  padding: 10px;
+  color: #24A1AE;
+  background: #fefefe;
+  border: solid 1px #725830; }
+
+.form-element-entry {
+  width: 100%; }
+
+.form-element-time {
+  width: 100%; }
+
+.clearfix {
+  overflow: hidden; }
+
+/* Form List */
+.form-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.form-list li:first-child {
+  background: #333333;
+  color: #fff; }
+
+.form-list-item {
+  background: #f3f3f3;
+  padding: 15px;
+  color: #725830;
+  margin-bottom: 10px; }
+
+.form-list-item-sub {
+  width: 49%;
+  display: inline-block; }
+
+.form-list-item-sub-time {
+  text-align: right; }
+
+/* Person List */
+.grid-manuel {
+  overflow: hidden;
+  /*clearfix*/ }
+
+.grid-item-manuel {
+  float: left;
+  background: #ff0000;
+  margin-bottom: 20px;
+  padding-left: 20px; }
+
+/* Person Grid */
+.person {
+  background: #ff0000;
+  margin-bottom: 20px;
+  padding-left: 20px; }
